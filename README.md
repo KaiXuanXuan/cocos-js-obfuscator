@@ -1,3 +1,5 @@
+[English](README.md) / [中文](README_CN.md)
+
 # Cocos Creator JS Obfuscator
 
 A Cocos Creator extension that obfuscates JavaScript code during the build process to protect your game code from reverse engineering.
