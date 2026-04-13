@@ -7,35 +7,36 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.unload = exports.load = exports.configs = void 0;
+const PACKAGE_NAME = 'js-obfuscator';
 exports.configs = {
     // 对所有平台生效的基础配置
     '*': {
         options: {
             enableObfuscation: {
-                label: 'i18n:js-obfuscator.enable',
-                description: 'i18n:js-obfuscator.enable_desc',
+                label: `i18n:${PACKAGE_NAME}.options.enable`,
+                description: `i18n:${PACKAGE_NAME}.options.enable_desc`,
                 default: false,
                 render: {
                     ui: 'ui-checkbox',
                 },
             },
             obfuscatorPreset: {
-                label: 'i18n:js-obfuscator.preset',
-                description: 'i18n:js-obfuscator.preset_desc',
+                label: `i18n:${PACKAGE_NAME}.options.preset`,
+                description: `i18n:${PACKAGE_NAME}.options.preset_desc`,
                 default: 'medium',
                 render: {
                     ui: 'ui-select',
                     items: [
-                        { value: 'low', label: 'Low (低强度)' },
-                        { value: 'medium', label: 'Medium (中强度) - 推荐' },
-                        { value: 'high', label: 'High (高强度)' },
+                        { value: 'low', label: `i18n:${PACKAGE_NAME}.options.preset_low` },
+                        { value: 'medium', label: `i18n:${PACKAGE_NAME}.options.preset_medium` },
+                        { value: 'high', label: `i18n:${PACKAGE_NAME}.options.preset_high` },
                     ],
                 },
                 verifyRules: ['rulePreset'],
             },
             excludeFiles: {
-                label: 'i18n:js-obfuscator.exclude',
-                description: 'i18n:js-obfuscator.exclude_desc',
+                label: `i18n:${PACKAGE_NAME}.options.exclude`,
+                description: `i18n:${PACKAGE_NAME}.options.exclude_desc`,
                 default: '',
                 render: {
                     ui: 'ui-input',

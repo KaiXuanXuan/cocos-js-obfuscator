@@ -1,10 +1,11 @@
 {
     "package_version": 2,
     "name": "js-obfuscator",
+    "title": "i18n:js-obfuscator.title",
     "version": "1.0.0",
     "author": "KaiXuanXuan",
     "editor": ">=3.8.0",
-    "description": "JavaScript obfuscator for Cocos Creator builds. Protect your game code with configurable obfuscation presets.",
+    "description": "i18n:js-obfuscator.description",
     "main": "./dist/main.js",
     "scripts": {
         "build": "tsc",
