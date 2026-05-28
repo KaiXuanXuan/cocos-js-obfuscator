@@ -88,7 +88,7 @@ build/<platform>/data/obfuscation-report.json
 ## Requirements
 
 - Cocos Creator 3.8.0+
-- Node.js 16+
+- Node.js 18+ (javascript-obfuscator 4.x requirement)
 
 ## How It Works
 

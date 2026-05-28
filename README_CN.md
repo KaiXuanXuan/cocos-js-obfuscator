@@ -88,7 +88,7 @@ build/<platform>/data/obfuscation-report.json
 ## 系统要求
 
 - Cocos Creator 3.8.0+
-- Node.js 16+
+- Node.js 18+ (javascript-obfuscator 4.x 版本要求)
 
 ## 工作原理
 
